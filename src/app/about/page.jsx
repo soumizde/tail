@@ -82,10 +82,10 @@ export default function About() {
             <SocialLink href="https://www.linkedin.com/in/soumizde" icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
             </SocialLink>
-            <SocialLink href="#" icon={BehanceInIcon} className="mt-4">
+            <SocialLink href="https://www.behance.net/soumide1" icon={BehanceInIcon} className="mt-4">
               Follow on Behance
             </SocialLink>
-            <SocialLink href="#" icon={MediumInIcon} className="mt-4">
+            <SocialLink href="https://soumizde.medium.com/" icon={MediumInIcon} className="mt-4">
               Follow on Medium
             </SocialLink>
             <SocialLink

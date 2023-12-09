@@ -6,9 +6,11 @@ import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
+  BehanceInIcon,
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
+  MediumInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
 import logoAirbnb from '@/images/logos/airbnb.svg'
@@ -277,6 +279,17 @@ export default async function Home() {
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
+            <SocialLink
+              href="https://www.linkedin.com/in/soumizde/"
+              aria-label="Follow on LinkedIn"
+              icon={MediumInIcon}
+            />
+            <SocialLink
+              href="https://www.linkedin.com/in/soumizde/"
+              aria-label="Follow on LinkedIn"
+              icon={BehanceInIcon}
+            />
+            
           </div>
         </div>
       </Container>
