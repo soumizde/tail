@@ -217,8 +217,8 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
+      <Button href="https://drive.google.com/file/d/1JLot0vMUK80sY6NSCL6_M6hlW1KN_CYY/view?usp=sharing" variant="secondary" className="group mt-6 w-full">
+        View My CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
     </div>
@@ -263,9 +263,8 @@ export default async function Home() {
             Dream. Believe. Engineer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Soumi De - A UI/UX Designer by passion on the run to become a developer. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m Soumi De - A UI/UX Designer by passion on the run to become a developer. Always on the quest for the next big challenge!
+        
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
