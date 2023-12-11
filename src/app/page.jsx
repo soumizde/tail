@@ -165,7 +165,7 @@ function Role({ role }) {
           aria-label={`${startLabel} until ${endLabel}`}
         >
           <time dateTime={startDate}>{startLabel}</time>{' '}
-          <span aria-hidden="true">—</span>{' '}
+          <span aria-hidden="true"></span>{' '}
           <time dateTime={endDate}>{endLabel}</time>
         </dd>
       </dl>
@@ -176,36 +176,20 @@ function Role({ role }) {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
+      company: 'Wells Fargo',
+      title: 'Software Developer Intern',
       logo: logoPlanetaria,
-      start: '2019',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear().toString(),
-      },
+      start: 'Summer of',
+      end: '2024'
     },
     {
       company: 'Airbnb',
       title: 'Product Designer',
       logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      start: 'Jun, 2023',
+      end: '- Present',
     },
-    {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
-    },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
-    },
+    
   ]
 
   return (
