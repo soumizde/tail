@@ -12,7 +12,7 @@ const projects = [
   {
     name: 'Imagen',
     description:
-      'Unleash your imagination using the AI image generator that brings ideas to life.',
+      'An AI powered image generator built to unleash the power of imagination',
     link: { href: 'https://github.com/soumizde/imagen', label: 'Imagen' },
     logo: logoPlanetaria,
   },
