@@ -12,42 +12,42 @@ const projects = [
   {
     name: 'Imagen',
     description:
-      'Unleash your imagination using the AI image generator that brings ideas to life',
+      'Unleash your imagination using the AI image generator that brings ideas to life.',
     link: { href: 'https://github.com/soumizde/imagen', label: 'Imagen' },
     logo: logoPlanetaria,
   },
   {
     name: 'MindFlow',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
+      'A React Native Mobile Application build to sort tasks into categories based on Eisenhower Matrix',
     link: { href: 'https://github.com/soumizde/Mindflow', label: 'Mindflow' },
     logo: logoAnimaginary,
   },
   {
     name: 'Dwell',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
+      'A Product Design ideation project that meets the needs of anyone who is trying to find their dream home.',
     link: { href: 'https://www.behance.net/gallery/174505149/Dwell-Discover-your-Dream-Home', label: 'Dwell' },
     logo: logoHelioStream,
   },
   {
     name: 'Visage',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
+      'Standardized brand guidelines and developed logo, name, themes, typefaces for the conceptual Art Gallery.',
     link: { href: 'https://www.behance.net/gallery/167566573/The-Visage-Branding-Project', label: 'Visage' },
     logo: logoCosmos,
   },
   {
     name: 'Task Prioritizer',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
+      'A powerful application designed to help you efficiently organize, categorize and prioritize all your diverse tasks',
     link: { href: 'https://www.behance.net/gallery/167278653/Task-Management-UI-Design-Project', label: 'Design' },
     logo: logoOpenShuttle,
   },
   {
     name: 'Design Blogs',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
+      'Short, crisp reads that will help you through the practical problems when designing, find solutions and resources',
     link: { href: 'https://soumizde.medium.com', label: 'Blogs' },
     logo: logoCosmos,
   },
@@ -73,7 +73,8 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Let us take a walk through my universe"
-      intro="Over the course of my journey I have created a lot of documented and undocumented projects - these are just a handful that should give you a good insight into who I am."
+      intro="Over the course of my journey I have created a lot of documented and undocumented projects. These are just a handful that should give you a good insight into who I am!
+      Most of these are open source and I would love for you to give me more innovative ideas and contribute to them."
     >
       <ul
         role="list"
