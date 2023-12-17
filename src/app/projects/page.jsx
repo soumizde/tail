@@ -10,39 +10,46 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Imagen',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+      'Unleash your imagination using the AI image generator that brings ideas to life',
+    link: { href: 'https://github.com/soumizde/imagen', label: 'Imagen' },
     logo: logoPlanetaria,
   },
   {
-    name: 'Animaginary',
+    name: 'MindFlow',
     description:
       'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
+    link: { href: 'https://github.com/soumizde/Mindflow', label: 'Mindflow' },
     logo: logoAnimaginary,
   },
   {
-    name: 'HelioStream',
+    name: 'Dwell',
     description:
       'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
+    link: { href: 'https://www.behance.net/gallery/174505149/Dwell-Discover-your-Dream-Home', label: 'Dwell' },
     logo: logoHelioStream,
   },
   {
-    name: 'cosmOS',
+    name: 'Visage',
     description:
       'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
+    link: { href: 'https://www.behance.net/gallery/167566573/The-Visage-Branding-Project', label: 'Visage' },
     logo: logoCosmos,
   },
   {
-    name: 'OpenShuttle',
+    name: 'Task Prioritizer',
     description:
       'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
+    link: { href: 'https://www.behance.net/gallery/167278653/Task-Management-UI-Design-Project', label: 'Design' },
     logo: logoOpenShuttle,
+  },
+  {
+    name: 'Design Blogs',
+    description:
+      'The operating system that powers our Planetaria space shuttles.',
+    link: { href: 'https://soumizde.medium.com', label: 'Blogs' },
+    logo: logoCosmos,
   },
 ]
 
@@ -59,14 +66,14 @@ function LinkIcon(props) {
 
 export const metadata = {
   title: 'Projects',
-  description: 'Things I’ve made trying to put my dent in the universe.',
+  description: 'Let us take a walk through my universe',
 }
 
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="Let us take a walk through my universe"
+      intro="Over the course of my journey I have created a lot of documented and undocumented projects - these are just a handful that should give you a good insight into who I am."
     >
       <ul
         role="list"
